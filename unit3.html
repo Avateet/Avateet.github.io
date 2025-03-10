@@ -1,23 +1,107 @@
 <html>
   <head>
     <style>
-      body{
-      background-color: blue;
-      color: black;
+      /* General Body Styling */
+      body {
+        background-color: #1e2a47; /* Dark blue background */
+        color: #f4f4f9; /* Light text for better contrast */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+        display: grid;
+        place-items: center;
+        margin: 0;
+        height: 100vh;
+        padding: 0 20px;
+      }
+
+      /* Styling for the menu bar */
+      nav {
+        width: 100%;
+        background-color: #333; /* Dark background for the menu */
+        padding: 10px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
         text-align: center;
-        display:grid;
-        place-items:center;
+      }
+
+      nav a {
+        color: #f4f4f9; /* Light text color for the links */
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 0 15px;
+        padding: 10px;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        background-color: #555; /* Darker background on hover */
+        border-radius: 5px;
+      }
+
+      /* Headings and Text Styling */
+      h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+
+      /* Image Styling */
+      img {
+        max-width: 80%; /* Makes the image responsive */
+        height: auto;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding subtle shadow */
+      }
+
+      /* Link Styling */
+      a {
+        color: #00ff00; /* Green color for the link */
+        font-size: 1.2em;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Styling the iframe for responsiveness */
+      iframe {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding subtle shadow */
       }
     </style>
   </head>
   <body>
-    <a href ="index.html">Home</a>
+    <!-- Menu Bar -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="unit2.html">Unit2</a> <!-- Link to Unit2 -->
+    </nav>
+
+    <!-- Page Content -->
     <h1>Land on Life Game Project</h1>
-    <h2>My project is about quality education. The slides explain why some kids aren't getting good education, the statistics, how the goal is being achieved, and how we can prevent this from continuing.</h2>
-<iframe width="410" height="460"
-   src="https://academy.cs.cmu.edu/sharing/oliveDrabZebra7145/embed"> 
- </iframe>
-    <h3>I created the game for fun. This game is supposed to show a farmer (player) trying to plant seeds and get rid of weeds.</h3>
-  <img src="media/Screenshot 2025-03-10 12.24.39 PM.png">
+    <h2>My project is about a fun game where the player (farmer) plants seeds and removes weeds.</h2>
+    <iframe width="410" height="460" src="https://academy.cs.cmu.edu/sharing/oliveDrabZebra7145/embed"></iframe>
+    <h3>I created this game for fun. The objective is for the player (farmer) to plant seeds and clear weeds. It's a simple simulation of farming life.</h3>
+    <img src="media/Screenshot 2025-03-10 12.24.39 PM.png" alt="Screenshot of the Land on Life Game">
   </body>
 </html>
