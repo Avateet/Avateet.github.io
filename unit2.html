@@ -1,22 +1,99 @@
 <html>
   <head>
     <style>
-      body{
-      background-color: blue;
-      color: black;
+      /* General Body Styling */
+      body {
+        background-color: #1e2a47; /* Dark blue background */
+        color: #f4f4f9; /* Light text for better contrast */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean font */
+        display: grid;
+        place-items: center;
+        margin: 0;
+        height: 100vh;
+        padding: 0 20px;
+      }
+
+      /* Styling for the menu bar */
+      nav {
+        width: 100%;
+        background-color: #333; /* Dark background for the menu */
+        padding: 10px 0;
+        position: absolute;
+        top: 0;
+        left: 0;
         text-align: center;
-        display:grid;
-        place-items:center;
+      }
+
+      nav a {
+        color: #f4f4f9; /* Light text color for the links */
+        text-decoration: none;
+        font-size: 1.2em;
+        margin: 0 15px;
+        padding: 10px;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        background-color: #555; /* Darker background on hover */
+        border-radius: 5px;
+      }
+
+      /* Headings and Text Styling */
+      h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 1.5;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: justify;
+      }
+
+      /* Image Styling */
+      img {
+        max-width: 80%; /* Makes the image responsive */
+        height: auto;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding subtle shadow */
+      }
+
+      /* Link Styling */
+      a {
+        color: #00ff00; /* Green color for the link */
+        font-size: 1.2em;
+        text-decoration: none;
+        margin-top: 20px;
+        display: inline-block;
+      }
+
+      a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <a href ="index.html">Home</a>
+    <!-- Menu Bar -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="unit3.html">Unit3</a> <!-- Link to Unit3 -->
+    </nav>
+
+    <!-- Page Content -->
     <h1>Quality Education CMU Project</h1>
     <h2>My project is about quality education. The slides explain why some kids aren't getting good education, the statistics, how the goal is being achieved, and how we can prevent this from continuing.</h2>
-    <img src="media/cs-academy-recording.gif">
-    <h3>I created the graduation hat logo, representing good education. I made this using a function and adding parameters for the x coordinate, y coordinate, and color.
-    Below is some of my code snippets from this project.</h3>
-  <img src="media/Screenshot 2025-02-18 12.13.23 PM.png">
+    <img src="media/cs-academy-recording.gif" alt="Quality Education CMU Project Animation">
+    <h3>I created the graduation hat logo, representing good education. I made this using a function and adding parameters for the x coordinate, y coordinate, and color. Below is some of my code snippets from this project.</h3>
+    <img src="media/Screenshot 2025-02-18 12.13.23 PM.png" alt="Code Snippet for Graduation Hat Logo">
   </body>
 </html>
